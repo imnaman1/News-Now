@@ -1,6 +1,6 @@
 # news_app
 
-A new Flutter application.
+A Neumorphically designed News App using News Api.
 
 ## Getting Started
 
