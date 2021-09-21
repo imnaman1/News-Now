@@ -4,10 +4,12 @@ import 'package:news_app/Backend/backend.dart';
 import 'package:news_app/web_view.dart';
 
 class NewsTile extends StatelessWidget {
-  const NewsTile({Key? key, required this.news, required this.onTap})
-      : super(key: key);
+  const NewsTile({
+    Key? key,
+    required this.news,
+  }) : super(key: key);
 
-  final VoidCallback onTap;
+  // final VoidCallback onTap;
   final News news;
 
   @override

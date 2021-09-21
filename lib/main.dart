@@ -121,7 +121,9 @@ class _HomePageState extends State<HomePage> {
                             physics: ScrollPhysics(),
                             children: [
                               for (final news in data)
-                                NewsTile(news: news, onTap: () {})
+                                NewsTile(
+                                  news: news,
+                                )
                             ],
                           );
                         }
